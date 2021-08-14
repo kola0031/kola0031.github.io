@@ -1,0 +1,528 @@
+                    html,
+                body,
+                div,
+                span,
+                applet,
+                object,
+                iframe,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                blockquote,
+                pre,
+                a,
+                abbr,
+                acronym,
+                address,
+                big,
+                cite,
+                code,
+                del,
+                dfn,
+                em,
+                img,
+                ins,
+                kbd,
+                q,
+                s,
+                samp,
+                small,
+                strike,
+                strong,
+                sub,
+                sup,
+                tt,
+                var,
+                b,
+                u,
+                i,
+                center,
+                dl,
+                dt,
+                dd,
+                ol,
+                ul,
+                li,
+                fieldset,
+                form,
+                label,
+                legend,
+                table,
+                caption,
+                tbody,
+                tfoot,
+                thead,
+                tr,
+                th,
+                td,
+                article,
+                aside,
+                canvas,
+                details,
+                embed,
+                figure,
+                figcaption,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                output,
+                ruby,
+                section,
+                summary,
+                time,
+                mark,
+                audio,
+                video {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+                /* HTML5 display-role reset for older browsers */
+                
+                article,
+                aside,
+                details,
+                figcaption,
+                figure,
+                footer,
+                header,
+                hgroup,
+                menu,
+                nav,
+                section {
+                    display: block;
+                }
+                
+                body {
+                    line-height: 1;
+                }
+                
+                ol,
+                ul {
+                    list-style: none;
+                }
+                
+                blockquote,
+                q {
+                    quotes: none;
+                }
+                
+                blockquote:before,
+                blockquote:after,
+                q:before,
+                q:after {
+                    content: '';
+                    content: none;
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                /* END OF MEYER RESET */
+                
+                @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+                .outerdiv {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    margin: 0 auto;
+                }
+                
+                .grid-container {
+                    width: 100%;
+                    margin: 0 auto;
+                    display: grid;
+                    row-gap: 20px;
+                }
+                
+                .logo img {
+                    width: 114px;
+                    height: auto;
+                    margin-left: 25px;
+                }
+                
+                main h1 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 60px;
+                    font-weight: bold;
+                    color: #333131;
+                    line-height: 75px;
+                    margin-left: 25px;
+                }
+                
+                h4 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: normal;
+                    color: #333131;
+                    line-height: 30px;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                }
+                
+                h2 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: #333131;
+                    margin-left: 25px;
+                }
+                
+                h5 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: #333131;
+                    padding-left: 0px;
+                    padding-top: 15px;
+                    margin-left: 25px;
+                }
+                
+                footer {
+                    background-color: #fffd8c;
+                    margin-top: 25px;
+                    width: 336px;
+                }
+                
+                footer.tab {
+                    display: none;
+                }
+                
+                form {
+                    border-radius: 25px;
+                    padding: 15px;
+                    box-shadow: 3px 5px 7px 0px;
+                    max-width: 100%;
+                    padding-top: 25px;
+                    margin-left: 25px;
+                }
+                
+                .big {
+                    display: none;
+                }
+                
+                input {
+                    border: none;
+                    outline: none;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    color: #9B9B9B;
+                    border-radius: 10px;
+                    background-color: #e5e5e5;
+                    display: block;
+                    width: 100%;
+                }
+                
+                input.box1 {
+                    margin-left: 20px;
+                }
+                
+                .form-input-container {
+                    margin: 25px
+                }
+                
+                label {
+                    padding-top: 25px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    color: #333131;
+                }
+                
+                label>input {
+                    display: inline;
+                    width: auto;
+                }
+                
+                .mail {
+                    padding-bottom: 15px;
+                }
+                
+                #box {
+                    transform: scale(1.5);
+                }
+                /* styles a button */
+                
+                button {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    background-color: #57EEAB;
+                    width: 250px;
+                    height: 55px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: #333131;
+                    border: none;
+                    border-radius: 10px;
+                    margin-left: 25px;
+                }
+                
+                #panti .btn-orange {
+                    display: none;
+                }
+                
+                .ready {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    margin-left: 25px;
+                    line-height: 17px;
+                }
+                /* changes the color of a link and removes underline */
+                
+                a:link {
+                    text-decoration: none;
+                    color: #FF8480
+                }
+                
+                h6 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                    padding-left: 25px;
+                    padding-top: 25px;
+                    color: #333131;
+                }
+                
+                footer p {
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-family: 'Montserrat', sans-serif;
+                    padding: 25px;
+                    color: #333131;
+                    line-height: 20px;
+                }
+                
+                .icons {
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                #panti {
+                    display: flex;
+                    flex-direction: row;
+                }
+                
+                #panti .box1 {
+                    width: 68px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: normal;
+                    border-radius: 10px;
+                }
+                
+                #panti .box2 {
+                    width: 170px;
+                    border-radius: 10px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 25px;
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: normal;
+                    margin-left: 10px;
+                }
+                
+                .btn-orange {
+                    color: #F7F7FF;
+                    background-color: #FF8480;
+                    width: 302px;
+                    height: 40px;
+                }
+                /* media query for mobile */
+                
+                @media only screen and (min-width: 768px) {
+                    .grid-container {
+                        width: 768px;
+                        height: auto;
+                        display: grid;
+                        grid-template-columns: repeat(5, 1fr);
+                        grid-template-areas: "logo" "main" "bgimage""form" "footer";
+                    }
+                    .logo img {
+                        grid-area: logo;
+                        width: 114px;
+                    }
+                    main {
+                        grid-area: main;
+                    }
+                    button {
+                        width: 596px;
+                        margin-left: 10px;
+                    }
+                    p.ready {
+                        padding-left: 58px;
+                    }
+                    button#orange {
+                        display: none;
+                    }
+                    #panti .btn-orange {
+                        display: block;
+                    }
+                    .bgimage {
+                        grid-area: bgimage;
+                    }
+                    form,
+                    #formdiv {
+                        grid-area: form;
+                        margin-left: 10px;
+                        width: 660px;
+                    }
+                    footer {
+                        width: 700px;
+                        height: fit-content;
+                        margin-top: 30px;
+                        padding: 35px;
+                    }
+                    footer,
+                    h6 {
+                        font-size: 28px;
+                        padding-top: 6px;
+                    }
+                    #panti .box1 {
+                        margin-left: 25px;
+                        margin-bottom: 25px;
+                        margin-top: 18px;
+                    }
+                    #panti .box2 {
+                        padding-right: 81px;
+                        margin-bottom: 25px;
+                        margin-top: 18px;
+                    }
+                    .icons {
+                        justify-content: space-evenly;
+                    }
+                    input .box2 {
+                        width: 227px;
+                        background-color: green;
+                    }
+                    .btn-orange {
+                        width: 362px;
+                    }
+                    @media only screen and (max-width: 1920px) {
+                        .grid-container {
+                            width: 600px;
+                            height: auto;
+                            display: grid;
+                            grid-template-columns: repeat(5, 1fr);
+                            grid-template-areas: "logo" "main" "bgimage""form" "footer";
+                        }
+                        .logo {
+                            grid-area: logo;
+                        }
+                        main {
+                            grid-area: main;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 80px;
+                            font-weight: bold;
+                            color: #333131;
+                            line-height: 75px;
+                            margin-left: 25px;
+                        }
+                        .flex-container {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .flex-container h1 {
+                            width: 604px;
+                            font-size: 80px;
+                            line-height: 1.0;
+                        }
+                        .flex-container h4 {
+                            font-size: 24px;
+                            margin-top: 15px;
+                        }
+                        .bgimage {
+                            grid-area: bgimage;
+                        }
+                        .logo,
+                        img {
+                            width: 114px;
+                            padding-left: 182px;
+                        }
+                        div#formdiv {
+                            grid-area: form;
+                            width: 600px;
+                        }
+                    }
+                    .nmber {
+                        padding-top: 13px;
+                        padding-bottom: 26px;
+                    }
+                    .big .agree {
+                        font-size: 20px;
+                    }
+                    .big button {
+                        width: 525px;
+                        font-size: 32px;
+                    }
+                    .big p.ready {
+                        margin-left: 63px;
+                        margin-right: -33px;
+                    }
+                    h5 {
+                        font-size: 23.5px;
+                    }
+                    .big input {
+                        font-size: 17px;
+                    }
+                    .tab .box2 {
+                        width: 170px;
+                        height: 21px;
+                        border-top-width: 20px;
+                        padding-top: 10px;
+                        margin-top: 15px;
+                    }
+                    .tab div#panti {
+                        margin-top: -23px;
+                    }
+                    /* Media query for desktop */
+                    @media (min-width: 1920px) {
+                        .grid-container {
+                            width: 1920px;
+                            height: auto;
+                            display: flex;
+                            flex-direction: row;
+                        }
+                        .bgimage img {
+                            width: 800px;
+                        }
+                        main h1 {
+                            font-size: 88px;
+                            padding-top: 42px;
+                            margin-left: 66px;
+                            line-height: 101px;
+                        }
+                        h4 {
+                            font-size: 18px;
+                            margin-left: 66px;
+                            line-height: 27px;
+                        }
+                        form,
+                        #formdiv {
+                            width: 535px;
+                            margin-left: -52px;
+                        }
+                        button {
+                            width: 491px;
+                        }
+                        footer {
+                            width: 1922px;
+                        }
+                    }

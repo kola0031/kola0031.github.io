@@ -1,0 +1,162 @@
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,600;1,700&family=Work+Sans:wght@300;400;500;700&display=swap');
+        .navbar,
+        footer {
+            background-color: #305574;
+            color: azure;
+        }
+        
+        .nav-link {
+            color: azure !important;
+            margin-left: 100px;
+        }
+        /* customizes the navbar away from default bootstrap */
+        
+        a.nav-link.cat {
+            color: #e2e5e5!important;
+            border: 2px solid #717374;
+            margin: 10px;
+            background-color: #305574;
+        }
+        /* makes images responsive */
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        /* adds some css animation to images */
+        
+        .hover01:hover img {
+            -webkit-transform: scale(2.2);
+            transform: scale(1.2);
+        }
+        
+        img.phead {}
+        
+        div.container.port {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+        
+        div.port h1 {
+            color: black;
+        }
+        
+        h1 {
+            font-family: 'Crimson Text', serif;
+            ;
+        }
+        
+        .btn {
+            margin-left: 145px;
+            color: white;
+            background-color: #305574;
+            border: 2px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        body {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 2.5rem
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(odd) {
+            background-color: #ddddddc0;
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            /* Full width */
+            padding: 12px;
+            /* Some padding */
+            border: 1px solid #ccc;
+            /* Gray border */
+            border-radius: 4px;
+            /* Rounded borders */
+            box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+            background-color: #305574;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* creates a hover effect */
+        
+        input[type=submit]:hover {
+            background-color: #1d3346;
+        }
+        
+        .row.twitter {
+            margin-left: -8px;
+        }
+        /* add a top border to seperate text*/
+        
+        .container.break {
+            border-top: 2px solid black;
+            padding-top: 15px;
+        }
+        /*customizing certain elements at different breakpoints*/
+        
+        @media (min-width: 576px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .btn {
+                margin-left: 170px;
+            }
+            body {
+                font-size: 1rem;
+            }
+            .row.twitter {
+                margin-left: 0px;
+            }
+        }
+        
+        @media (min-width:768px) {
+            h1 {
+                font-size: 3rem;
+            }
+            body {
+                font-size: 1rem;
+            }
+            .btn {
+                margin-left: 255px;
+            }
+            .row.twitter {
+                margin-left: 87px;
+            }
+        }
+        
+        @media (min-width:992px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+            body {
+                font-size: 1.5rem;
+            }
+            .btn {
+                margin-left: 380px;
+            }
+            .row.twitter {
+                margin-left: 213px;
+            }
+        }
